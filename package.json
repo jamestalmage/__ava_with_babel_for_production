@@ -1,0 +1,35 @@
+{
+  "name": "ava-with-babel-for-production",
+  "version": "0.0.0",
+  "description": "My astounding module",
+  "license": "MIT",
+  "repository": "jamestalmage/ava-with-babel-for-production",
+  "author": {
+    "name": "James Talmage",
+    "email": "james@talmage.io",
+    "url": "github.com/jamestalmage"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.4.2",
+    "babel-core": "^5.8.33",
+    "xo": "^0.10.0"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
