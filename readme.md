@@ -9,7 +9,7 @@ The important steps.
 3. Import the babel require hook in your tests (see test.js).
 
 Files imported before the hook (and all their transitive dependencies) must be written in `ES5`.
-If you are going to do this `import 'babel-core/require';`, really should be the first line of your test.
+If you are going to do this `import 'babel-core/register';`, really should be the first line of your test.
 
 ## License
 
